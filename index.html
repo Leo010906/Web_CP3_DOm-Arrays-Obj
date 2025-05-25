@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantinho Doce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Cantinho Doce</h1>
+    </header>    
+    
+    <main class="container">
+        <section class="catalogo">
+            <h1>Produtos</h1>
+            <br>
+            <div class="filtros">
+                <select id="categoriaSelect">
+                    <option value="">Todas as Categorias</option>
+                    <option value="Bolos">Bolos</option>
+                    <option value="Tortas">Tortas</option>
+                    <option value="Especiais">Especiais</option>
+                </select>
+                <button id="listarTodos">Listar Todos</button>
+                <button id="filtrarBtn">Filtrar</button>
+                <br>
+                <label>
+                    <input type="checkbox" id="disponiveisCheckbox"> Somente disponíveis
+                </label>
+            </div>
+        </section>    
+
+    <div id="produtosContainer"></div>
+
+    <script src="app.js"></script>
+
+    <footer class="footer">
+        <p>Confeitaria Cantinho Doce</p>
+    </footer>
+</body>
+</html>

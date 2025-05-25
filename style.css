@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&display=swap');
+
+
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #fdf1ec;
+}
+
+.header {
+    background-color: #7a0d0d;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logo {
+    font-family: 'Kapakana', cursive;
+    font-size: 50px;
+    text-align: center;
+    animation: pulse 2s infinite;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filtros select {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #7a0d0d;
+    background-color: white;
+    color: #7a0d0d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filtros input[type="checkbox"]{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #7a0d0d;
+    background-color: white;
+    color: #7a0d0d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filtros button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #7a0d0d;
+    background-color: white;
+    color: #7a0d0d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filtros button:hover {
+    background-color: #7a0d0d;
+    color: white;
+}
+
+#produtosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.produto {
+    border: 2px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    transition: 0.3s;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.produto:hover {
+    border-color: #007BFF;
+    background-color: #eaf4ff;
+}
+
+.produto-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #7a0d0d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
