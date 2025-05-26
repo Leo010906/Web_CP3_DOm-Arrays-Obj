@@ -25,11 +25,16 @@ O projeto exibe um catálogo de bolos, tortas e doces especiais. O usuário pode
 
 ## Autor 🧠 
 
-* \[Leandro Simoneli da Silva]
+* Leandro Simoneli da Silva
 
 ## Links
 
-
+* Link do repositório: 
+  (https://github.com/Leo010906/Web_CP3_DOm-Arrays-Obj.git)
+* Link do site:
+  (https://leo010906.github.io/Web_CP3_DOm-Arrays-Obj/)
+* Link do diagrama:
+  (https://miro.com/app/board/uXjVIwDsGgg=/?moveToWidget=3458764629653066522&cot=14)  
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIwDsGgg=/?moveToViewport=-3183,-946,6881,3149&embedId=120289466038" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 
